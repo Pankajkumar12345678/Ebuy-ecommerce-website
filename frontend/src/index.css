@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @apply bg-slate-100 
+
+
+}
+
+/* body {
+  background-image: url('https://th.bing.com/th?q=Background+Images+for+App+Login&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.2&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0; 
+  height: 100vh; 
+}  */
+
+
+
+/* set login background image */
+
+/* .custom-background {
+  background-image: url('https://th.bing.com/th?q=Background+Images+for+App+Login&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.2&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247');
+  background-position: center, top left;
+  background-size: cover, contain;
+  background-repeat: no-repeat, repeat;
+} */
+
+/* set login background color */
+.custom-background{
+  background-color: #225b84;
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
